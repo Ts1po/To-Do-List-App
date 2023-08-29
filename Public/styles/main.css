@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(77, 14, 236);
+  }
+  
+  h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    background-color: rgb(158, 61, 179);
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  #inp {
+    margin-top: 100px;
+  }
+  
+  #add {
+    background-color: rgb(4, 255, 0);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px;
+  }
+  
+  li div form {
+    margin-left: 10px;
+  }
+  
+  #del {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }    
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    background-color: white;
+    width: 80%;
+    margin-left: 120px;
+  }
+  
+  li .task form {
+    margin: 0;
+  }
